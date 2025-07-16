@@ -10,7 +10,7 @@ const TechStack = () => {
     {
       title: "Frameworks & Tools",
       icon: Cloud,
-      items: ["Streamlit", "Docker", "Kubernetes", "Jenkins", "Git", "GitHub", "Google Colab", "Jupyter Notebook"]
+      items: ["Streamlit", "Docker", "Kubernetes", "Jenkins", "Git", "Flask & Django", "Google Colab", "Jupyter Notebook"]
     },
     {
       title: "Domains & Concepts",
