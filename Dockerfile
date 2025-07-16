@@ -11,3 +11,4 @@ COPY . .
 RUN npm run build
 
 CMD ["cp", "-r", "dist", "/output"]
+
