@@ -1,5 +1,5 @@
 pipeline {
-  agent { label 'docker-agent' }
+  agent any
 
   environment {
     OUTPUT_DIR = "/srv/build_output"
