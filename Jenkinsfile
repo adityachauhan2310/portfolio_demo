@@ -1,5 +1,9 @@
 pipeline {
-  agent any
+    agent {
+        docker {
+            image 'node:22-alpine'
+        }
+    }
 
   environment {
     OUTPUT_DIR = "/srv/build_output"
